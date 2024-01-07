@@ -7,7 +7,7 @@ from chatgpt_bot.filters import AuthorizedUserFilter
 def start_bot():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(init_chatgpt())
-    app = Application.builder().token(("6858395443:AAHkpSM_E6YlnYr23I8uJXGNNjwcRRifsvo")).build()
+    app = Application.builder().token("6841554285:AAHamQr5w4s_9iek3Vrrg2mzROpCy_pr13k").build()
     
     # Commands
     app.add_handler(CommandHandler("start", start, filters=AuthorizedUserFilter()))
