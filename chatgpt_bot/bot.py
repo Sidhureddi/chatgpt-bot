@@ -8,7 +8,7 @@ def start_bot():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(init_chatgpt())
     app = Application.builder().token("6841554285:AAHamQr5w4s_9iek3Vrrg2mzROpCy_pr13k").build()
-    
+    group id : "-4011088802"
     # Commands
     app.add_handler(CommandHandler("start", start, filters=AuthorizedUserFilter()))
     app.add_handler(CommandHandler("help", help_command, filters=AuthorizedUserFilter()))
