@@ -23,7 +23,7 @@ async def start(update: Update, _: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user
     await update.message.reply_html(
-        f"Hi {user.mention_html()}!\n\nStart sending messages with me to generate a response.\n\nSend /new to start a new chat session.",
+        f"Hi {user.mention_html()}!\n\nStart sending messages with me to generate a response 👉bot made by @sidhu901022.\n\nSend /new to start a new chat session.",
         # reply_markup=ForceReply(selective=True),
     )
 
