@@ -39,6 +39,7 @@ Chat commands:
 /new - Start a new chat session (model will forget previously generated messages)
 
 Send a message to the bot to generate a response.
+any other information contact here👉@sidhu901022
 """
     await update.message.reply_text(help_text)
     
